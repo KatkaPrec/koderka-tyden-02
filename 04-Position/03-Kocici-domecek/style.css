@@ -24,6 +24,7 @@ h1 {
 		pak mohla pozicovat kočky v rámci domečku
 		a ne celé stránky
 	*/
+	position: relative;
 
 
 }
@@ -35,7 +36,9 @@ h1 {
 		kočka si svoje zamilované dopisy
 		nejraději čte v levém dolním rohu domečku
 	*/
-
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .motyl {
@@ -46,6 +49,9 @@ h1 {
 		uprostřed domečku, protože tam má na
 		dovádění nejvíc místa
 	*/
+	position: absolute;
+	left: 265px;
+	top: 141px;
 
 }
 
@@ -60,6 +66,10 @@ h1 {
 		(tj. vyčuhuje z domečku ven)
 	*/
 
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-50%, -50%); /* musela jsem si tuto funkci vygooglit, nikdy jsem ji ještě nepoužila */
 }
 
 .sluchatka {
@@ -73,6 +83,9 @@ h1 {
 		totiž na svůj tanec trochu prostoru
 	*/
 
+	position: absolute;
+	right: 30px;
+	top: 30px;
 }
 
 .spanek {
@@ -82,5 +95,9 @@ h1 {
 		kočka s myší je unavená, a proto chce jít
 		spát do pravého dolního rohu domečku
 	*/
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
 
 }
